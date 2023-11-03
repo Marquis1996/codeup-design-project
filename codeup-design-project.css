@@ -1,0 +1,546 @@
+@import "./css/resets.css";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+
+.abel{
+    font-family: 'Abel', sans-serif;
+}
+.titlecolme{
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+
+.easteregg{
+    color: #e0e0e0;
+}
+
+.easteregg:hover{
+    color: blue;
+}
+
+
+.hov:hover{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.hov{
+
+
+}
+
+
+
+.hamburga{
+    display: none;
+}
+body{
+    background-color: #e0e0e0;
+}
+
+.page-wrapper{
+
+
+}
+
+.row2{
+    height: 100%;
+    align-items: center;
+}
+
+.col2{
+    max-height: 100%;
+   align-items: center;
+}
+
+.header{
+    justify-content: start;
+    max-width: 15%;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.ullist{
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu-list {
+   justify-content: start;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+    opacity: 50%;
+
+}
+
+.hero{
+    max-width: 100%;
+    min-height: 25dvh;
+    justify-content: center;
+
+}
+
+.BGH1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+
+}
+.k{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.circleclasses{
+    max-height: 100%;
+    gap: 10px;
+}
+.BGH1 .WANDH{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #f0f0f0;
+    color: white;
+
+
+
+}
+.desin{
+    max-width: 80%;
+}
+.red{
+    height: 100%;
+    max-width: 100%;
+    background-color: #e6563b;
+    border-radius: 80%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.devword{
+    max-width: 80%;
+    justify-content: center;
+}
+.orange{
+    height: 100%;
+    max-width: 100%;
+    background-color: #eb9d3a;
+    border-radius: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    height: 100%;
+    max-width: 100%;
+    background-color: #7cb06c;
+    border-radius: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    height: 100%;
+    max-width: 100%;
+    background-color: #00aba9;
+    border-radius: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circleclasses{
+    flex-direction: row;
+}
+.linebreak{
+margin-left: 200px;
+    margin-right: 200px;
+}
+.kr{
+    justify-content: center;
+}
+
+.hero2{
+    height: 100dvh;
+}
+
+.selt{
+    flex-grow: 2;
+   align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+.pics{
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 40px;
+
+}
+
+.pic{
+    border: 5px solid #bebcbc;
+    width: 270px;
+    height: 200px;
+}
+.h{
+    border: unset;
+    width: 20px;
+}
+
+
+.pic2{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #BEBCBCFF;
+}
+.sndcol{
+    gap: 40px;
+    max-height: 100%;
+    padding-top: 20px;
+
+
+}
+.img2{
+    gap: 40px;
+    flex-direction: column;
+}
+.thelast{
+    justify-content: center;
+}
+
+.container .header{
+   align-items: start;
+}
+.needwid{
+    max-width: 100%;
+}
+.makemesmall{
+    width: 30px;
+    height: 30px;
+}
+.beginningtitle{
+
+    align-self: center;
+}
+.allignme{
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    justify-content: center;
+
+}
+
+.sizeup{
+    font-size: 50px;
+}
+
+.sizeup2{
+    font-size: 30px;
+}
+@media screen and (max-width: 800px) {
+   .colmnme{
+       flex-direction: column;
+   }
+}
+.hov:hover{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 757px){
+    .bighead {
+        .menu-list {
+            display: none;
+        }
+
+    }
+
+    .hov:hover{
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+.linebreak{
+    display: none;
+}
+
+.beginningtitle{
+    display: none;
+}
+
+.hamburga{
+    display: unset;
+}
+
+    #burger-menu {
+        cursor: pointer;
+        height: 27px;
+        width: 27px;
+        margin: 50px;
+        overflow: visible;
+        position: relative;
+        z-index: 2;
+    }
+    #burger-menu span,
+    #burger-menu span:before,
+    #burger-menu span:after {
+        background: #fff;
+        display: block;
+        height: 2px;
+        opacity: 1;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+    }
+    #burger-menu span:before,
+    #burger-menu span:after {
+        content: "";
+    }
+    #burger-menu span:before {
+        left: 0px;
+        top: -10px;
+        width: 27px;
+    }
+    #burger-menu span {
+        right: 0px;
+        top: 13px;
+        width: 27px;
+    }
+    #burger-menu span:after {
+        left: 0px;
+        top: 10px;
+        width: 27px;
+    }
+    #burger-menu.close span:before {
+        top: 0px;
+        transform: rotate(90deg);
+        width: 27px;
+    }
+    #burger-menu.close span {
+        transform: rotate(-45deg);
+        top: 13px;
+        width: 27px;
+    }
+    #burger-menu.close span:after {
+        top: 0px;
+        left: 0;
+        transform: rotate(90deg);
+        opacity: 0;
+        width: 0;
+    }
+
+    #menu {
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+        text-align: center;
+        padding-top: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    #menu.overlay {
+        visibility: visible;
+        opacity: 1;
+        padding-top: 100px;
+        background: rgba(0, 0, 0, 0.85);
+    }
+    #menu ul {
+        padding: 0;
+    }
+    #menu li {
+        list-style: none;
+    }
+    #menu a {
+        color: #fff;
+        display: block;
+        font-size: 32px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+.moveme{
+    align-self: end;
+    justify-self: start;
+}
+
+.makemesmall{
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+    .thelast{
+        padding: 20px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 540px){
+
+
+  .hero{
+      margin-top: 20px;
+  }
+
+
+.allignme{
+    text-align: center;
+}
+
+    .hov:hover{
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+.circleclasses{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .circleclasses .k{
+        width: 100px;
+        height: 100px;
+    }
+
+    .thelast{
+        padding: 20px;
+    }
+
+.BGH1{
+
+}
+.hamburga{
+    display: unset;
+}
+
+    #burger-menu {
+        cursor: pointer;
+        height: 27px;
+        width: 27px;
+        margin: 50px;
+        overflow: visible;
+        position: relative;
+        z-index: 2;
+    }
+    #burger-menu span,
+    #burger-menu span:before,
+    #burger-menu span:after {
+        background: #fff;
+        display: block;
+        height: 2px;
+        opacity: 1;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+    }
+    #burger-menu span:before,
+    #burger-menu span:after {
+        content: "";
+    }
+    #burger-menu span:before {
+        left: 0px;
+        top: -10px;
+        width: 27px;
+    }
+    #burger-menu span {
+        right: 0px;
+        top: 13px;
+        width: 27px;
+    }
+    #burger-menu span:after {
+        left: 0px;
+        top: 10px;
+        width: 27px;
+    }
+    #burger-menu.close span:before {
+        top: 0px;
+        transform: rotate(90deg);
+        width: 27px;
+    }
+    #burger-menu.close span {
+        transform: rotate(-45deg);
+        top: 13px;
+        width: 27px;
+    }
+    #burger-menu.close span:after {
+        top: 0px;
+        left: 0;
+        transform: rotate(90deg);
+        opacity: 0;
+        width: 0;
+    }
+
+    #menu {
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+        text-align: center;
+        padding-top: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    #menu.overlay {
+        visibility: visible;
+        opacity: 1;
+        padding-top: 100px;
+        background: rgba(0, 0, 0, 0.85);
+    }
+    #menu ul {
+        padding: 0;
+    }
+    #menu li {
+        list-style: none;
+    }
+    #menu a {
+        color: #fff;
+        display: block;
+        font-size: 32px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+
+
+
+    .makemesmall{
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        justify-self: center;
+        align-self: center;
+    }
+
+
+}
+
+
+
+
+
+
+
